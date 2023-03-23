@@ -1,0 +1,92 @@
+/*  ********************************************
+    BASE
+    ********************************************  */
+body {
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(114, 114, 114);
+    background: linear-gradient(to right,#caa586, #d8c5b6);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    border: 3px solid;
+    padding: 5px;
+    border-color: rgb(5, 5, 5);
+    box-shadow: -15px 13px 15px -2px rgba(148,69,69,1);
+    background: linear-gradient(to right, #ca1637, #76323F, #ca1637);
+}
+
+p {
+    line-height: 1.45em;
+    color: #2b2b2b;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid transparent;
+    padding: 8px;
+    background-color: transparent;
+}
+
+h2 {
+    color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 8px;
+    background-color:  #76323F;
+    box-shadow: -15px 13px 15px -2px rgba(148,69,69,1);
+}
+
+li{
+    line-height: 1.45em;
+}
+
+ul > li > a{
+    line-height: 1.45em;
+    color: #2b2b2b;
+}
+
+a:hover{
+    color:white;
+}
+
+li:hover{
+    color: white;
+}
+
+li:nth-child(even) {
+   background-color: #4e87eb;
+   width: 30%; 
+}
+li:nth-child(odd) {
+    background-color: #37abce;
+    width: 30%;
+}
+
+/*  ********************************************
+    Layout
+    *********************************************/
+.webdev {
+    float: right;
+    border: 3px solid #76323F;
+}
+
+.assignment {
+    width: 65%;
+}
+
+.intro {
+    width: 65%;
+}
+
+/*  ***********************************************
+    MODULE
+    ***********************************************/
+
+/*  **********************************************
+    STATE RULES
+    ***********************************************/
+
+/*  ***********************************************
+    THEME RULES
+    ************************************************/
